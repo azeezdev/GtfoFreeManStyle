@@ -380,3 +380,13 @@ Global $DELAYSWITCHBASES1 = 1000
 ;ClockTower
 Global $DELAYCLOCKTOWER1 = 1000
 Global $DELAYCLOCKTOWER2 = 100
+
+;Train
+Global Const $iDelayTrain1 = 100
+Global Const $iDelayTrain2 = 500
+Global Const $iDelayTrain3 = 1000
+Global Const $iDelayTrain4 = 200
+Global Const $iDelayTrain5 = 250 ; click
+Global Const $iDelayTrain6 = 20 ; click
+Global Const $iDelayTrain7 = 5 ; Spells Creation
+Global Const $iDelayTrain8 = 5000 ; wait for a while to desapear the 'received castle troops' msg
