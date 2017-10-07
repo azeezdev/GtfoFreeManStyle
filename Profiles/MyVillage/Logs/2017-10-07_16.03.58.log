@@ -1,0 +1,269 @@
+D [2017-10-07 16:03:58.928] Created log file: D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\Logs\2017-10-07_16.03.58.log
+L [2017-10-07 16:03:58.928] ====================== BOT LOG ======================
+D [2017-10-07 16:03:58.928] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+D [2017-10-07 16:03:58.928] @ScriptFullPath: D:\Desktop\MyBot\MyBot-MBR_v7.2.5\MyBot.run.au3
+D [2017-10-07 16:03:58.928] @WorkingDir: D:\Desktop\MyBot\MyBot-MBR_v7.2.5
+D [2017-10-07 16:03:58.928] @AutoItPID: 5552
+D [2017-10-07 16:03:58.928] @OSArch: X64
+D [2017-10-07 16:03:58.928] @OSVersion: WIN_7
+D [2017-10-07 16:03:58.928] @OSBuild: 7601
+D [2017-10-07 16:03:58.928] @OSServicePack: Service Pack 1
+D [2017-10-07 16:03:58.928] Primary Display: 1366 x 768 - 32bit
+D [2017-10-07 16:03:58.944] Bot title updated to: My Bot v7.2.5 
+D [2017-10-07 16:03:58.944] readConfig(), call number 1
+D [2017-10-07 16:03:58.959] Read Building Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\building.ini
+D [2017-10-07 16:03:58.975] Read Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\config.ini
+D [2017-10-07 16:03:59.100] Aquired mutex ticket: Launching.1, 0x0000016C
+L [2017-10-07 16:03:59.131] Watchdog launched
+D [2017-10-07 16:03:59.318] New Bot Host Window Handle registered: 0x001117FA
+D [2017-10-07 16:04:06.883] SplashStep 1 of 10: Initializing Android...(7.77 sec)
+D [2017-10-07 16:04:06.885] SplashStep 2 of 10: Detecting Android...(7.77 sec)
+D [2017-10-07 16:04:06.887] DetectRunningAndroid()
+D [2017-10-07 16:04:06.887] UpdateAndroidConfig("MEmu")
+D [2017-10-07 16:04:06.888] InitAndroid(False): MEmu
+L [2017-10-07 16:04:06.890] Serious error has occurred: Cannot find MEmu:
+L [2017-10-07 16:04:06.891] C:\Program Files (x86)\Microvirt\MEmu\MEmu.exe
+L [2017-10-07 16:04:06.892] Android support for MEmu is not available
+D [2017-10-07 16:04:06.892] InitAndroid(False): MEmu END, initialization successful = True, result = False
+D [2017-10-07 16:04:06.893] UpdateAndroidConfig("MEmu") END
+D [2017-10-07 16:04:06.894] UpdateAndroidConfig("Android")
+D [2017-10-07 16:04:06.894] InitAndroid(False): BlueStacks2
+D [2017-10-07 16:04:06.896] BlueStacks2 Engine 'Plus'-Mode: False
+D [2017-10-07 16:04:06.897] BlueStacks2 OEM Features: 0
+D [2017-10-07 16:04:06.898] BlueStacks2 System Bar is available
+D [2017-10-07 16:04:06.898] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:06.899] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:06.946] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:06.947] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:06.948] Android Emulator not launched
+D [2017-10-07 16:04:06.949] Disabled WerFault for HD-Frontend.exe
+L [2017-10-07 16:04:06.951] BlueStacks2 unsupported render mode 2
+L [2017-10-07 16:04:06.952] BlueStacks2 (Android) unsupported Graphics Engine / Render Mode, using DirectX/WinAPI
+D [2017-10-07 16:04:06.952] Disable ADB screencap, using WinAPI DirectX for Background Mode
+D [2017-10-07 16:04:06.954] Android: BlueStacks2
+D [2017-10-07 16:04:06.955] Android Config: 1
+D [2017-10-07 16:04:06.956] Android Version: 2.0.2.5623
+D [2017-10-07 16:04:06.956] Android Instance: Android
+D [2017-10-07 16:04:06.957] Android Window Title: BlueStacks 
+D [2017-10-07 16:04:06.957] Android Program Path: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe
+D [2017-10-07 16:04:06.958] Android Program Parameter: Android
+D [2017-10-07 16:04:06.959] Android Program FileVersionInfo: 0,,BlueStack Systems, Inc.,BlueStacks Frontend,2.0.2.5623,HD-Frontend.exe,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Frontend.exe,BlueStacks,2.0.2.5623,,
+D [2017-10-07 16:04:06.959] Android SecureME setting: 3
+D [2017-10-07 16:04:06.960] Android ADB Path: C:\Program Files (x86)\BlueStacks\HD-Adb.exe
+D [2017-10-07 16:04:06.960] Android VBoxManage Path: C:\Program Files (x86)\BlueStacks\BstkVMMgr.exe
+D [2017-10-07 16:04:06.961] Android ADB Device: 127.0.0.1:5555
+D [2017-10-07 16:04:06.961] Android ADB Shared Folder: /storage/sdcard/windows/BstSharedFolder/
+D [2017-10-07 16:04:06.962] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks\UserData\SharedFolder\
+D [2017-10-07 16:04:06.963] Android ADB Shared SubFolder: 
+D [2017-10-07 16:04:06.963] Android Mouse Device: BlueStacks Virtual Touch
+D [2017-10-07 16:04:06.964] Android ADB screencap command enabled: False
+D [2017-10-07 16:04:06.964] Android ADB input command enabled: True
+D [2017-10-07 16:04:06.965] Android ADB Mouse Click enabled: False
+D [2017-10-07 16:04:06.965] Android ADB Click Drag enabled: True
+D [2017-10-07 16:04:06.966] Bot Background Mode for screen capture: disabled
+D [2017-10-07 16:04:06.967] No Focus Tampering: False
+D [2017-10-07 16:04:06.967] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:06.968] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:07.005] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:07.006] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:07.007] Android Emulator not launched
+D [2017-10-07 16:04:07.007] InitAndroid(False): BlueStacks2 END, initialization successful = True, result = True
+D [2017-10-07 16:04:07.008] UpdateAndroidConfig("Android") END
+D [2017-10-07 16:04:07.008] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:07.009] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:07.046] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:07.047] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:07.048] Android Emulator not launched
+D [2017-10-07 16:04:07.049] UpdateAndroidConfig("Android")
+D [2017-10-07 16:04:07.050] InitAndroid(False): BlueStacks
+D [2017-10-07 16:04:07.052] BlueStacks Engine 'Plus'-Mode: False
+D [2017-10-07 16:04:07.053] BlueStacks OEM Features: 0
+D [2017-10-07 16:04:07.053] BlueStacks System Bar is available
+D [2017-10-07 16:04:07.054] Searching BlueStacks Window: Title = 'BlueStacks App Player', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:07.055] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:07.092] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:07.093] BlueStacks (Android) Window not found in list
+D [2017-10-07 16:04:07.093] Android Emulator not launched
+L [2017-10-07 16:04:07.095] BlueStacks version is 2.0.2.5623 but support version 0.8.x - 1.x not found
+L [2017-10-07 16:04:07.096] Android support for BlueStacks is not available
+D [2017-10-07 16:04:07.097] InitAndroid(False): BlueStacks END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.097] UpdateAndroidConfig("Android") END
+D [2017-10-07 16:04:07.098] UpdateAndroidConfig("KOPLAYER")
+D [2017-10-07 16:04:07.099] InitAndroid(False): KOPLAYER
+L [2017-10-07 16:04:07.100] Serious error has occurred: Cannot find KOPLAYER:
+L [2017-10-07 16:04:07.101] C:\Program Files (x86)\KOPLAYER\KOPLAYER.exe
+L [2017-10-07 16:04:07.102] Android support for KOPLAYER is not available
+D [2017-10-07 16:04:07.103] InitAndroid(False): KOPLAYER END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.103] UpdateAndroidConfig("KOPLAYER") END
+D [2017-10-07 16:04:07.104] UpdateAndroidConfig("vm1")
+D [2017-10-07 16:04:07.105] InitAndroid(False): LeapDroid
+L [2017-10-07 16:04:07.106] Serious error has occurred: Cannot find LeapDroid
+L [2017-10-07 16:04:07.107] installation directory
+L [2017-10-07 16:04:07.109] Android support for LeapDroid is not available
+D [2017-10-07 16:04:07.109] InitAndroid(False): LeapDroid END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.110] UpdateAndroidConfig("vm1") END
+D [2017-10-07 16:04:07.110] UpdateAndroidConfig("iToolsVM")
+D [2017-10-07 16:04:07.111] InitAndroid(False): iTools
+L [2017-10-07 16:04:07.112] Serious error has occurred: Cannot find iTools
+L [2017-10-07 16:04:07.114] installation directory
+L [2017-10-07 16:04:07.115] Android support for iTools is not available
+D [2017-10-07 16:04:07.115] InitAndroid(False): iTools END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.116] UpdateAndroidConfig("iToolsVM") END
+D [2017-10-07 16:04:07.116] UpdateAndroidConfig("droid4x")
+D [2017-10-07 16:04:07.117] InitAndroid(False): Droid4X
+L [2017-10-07 16:04:07.118] Serious error has occurred: Cannot find Droid4X:
+L [2017-10-07 16:04:07.120] C:\Program Files (x86)\Droid4X\Droid4X.exe
+L [2017-10-07 16:04:07.122] Android support for Droid4X is not available
+D [2017-10-07 16:04:07.123] InitAndroid(False): Droid4X END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.123] UpdateAndroidConfig("droid4x") END
+D [2017-10-07 16:04:07.124] UpdateAndroidConfig("nox")
+D [2017-10-07 16:04:07.125] InitAndroid(False): Nox
+L [2017-10-07 16:04:07.126] Serious error has occurred: Cannot find Nox file:
+L [2017-10-07 16:04:07.127] Nox.exe
+L [2017-10-07 16:04:07.128] Android support for Nox is not available
+D [2017-10-07 16:04:07.129] InitAndroid(False): Nox END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.130] UpdateAndroidConfig("nox") END
+D [2017-10-07 16:04:07.130] UpdateAndroidConfig("MEmu")
+D [2017-10-07 16:04:07.131] InitAndroid(False): MEmu
+L [2017-10-07 16:04:07.132] Serious error has occurred: Cannot find MEmu:
+L [2017-10-07 16:04:07.134] C:\Program Files (x86)\Microvirt\MEmu\MEmu.exe
+L [2017-10-07 16:04:07.135] Android support for MEmu is not available
+D [2017-10-07 16:04:07.135] InitAndroid(False): MEmu END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.136] UpdateAndroidConfig("MEmu") END
+D [2017-10-07 16:04:07.137] Found no running Android Emulator
+D [2017-10-07 16:04:07.137] DetectInstalledAndroid()
+D [2017-10-07 16:04:07.138] UpdateAndroidConfig("MEmu")
+D [2017-10-07 16:04:07.139] InitAndroid(False): MEmu
+L [2017-10-07 16:04:07.140] Serious error has occurred: Cannot find MEmu:
+L [2017-10-07 16:04:07.141] C:\Program Files (x86)\Microvirt\MEmu\MEmu.exe
+L [2017-10-07 16:04:07.142] Android support for MEmu is not available
+D [2017-10-07 16:04:07.143] InitAndroid(False): MEmu END, initialization successful = True, result = False
+D [2017-10-07 16:04:07.143] UpdateAndroidConfig("MEmu") END
+D [2017-10-07 16:04:07.144] UpdateAndroidConfig("Android")
+D [2017-10-07 16:04:07.145] InitAndroid(False): BlueStacks2
+D [2017-10-07 16:04:07.147] BlueStacks2 Engine 'Plus'-Mode: False
+D [2017-10-07 16:04:07.147] BlueStacks2 OEM Features: 0
+D [2017-10-07 16:04:07.148] BlueStacks2 System Bar is available
+D [2017-10-07 16:04:07.149] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:07.150] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:07.187] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:07.188] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:07.189] Android Emulator not launched
+D [2017-10-07 16:04:07.190] Disabled WerFault for HD-Frontend.exe
+L [2017-10-07 16:04:07.192] BlueStacks2 unsupported render mode 2
+L [2017-10-07 16:04:07.193] BlueStacks2 (Android) unsupported Graphics Engine / Render Mode, using DirectX/WinAPI
+D [2017-10-07 16:04:07.193] Disable ADB screencap, using WinAPI DirectX for Background Mode
+D [2017-10-07 16:04:07.195] Android: BlueStacks2
+D [2017-10-07 16:04:07.196] Android Config: 1
+D [2017-10-07 16:04:07.197] Android Version: 2.0.2.5623
+D [2017-10-07 16:04:07.197] Android Instance: Android
+D [2017-10-07 16:04:07.198] Android Window Title: BlueStacks 
+D [2017-10-07 16:04:07.198] Android Program Path: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe
+D [2017-10-07 16:04:07.199] Android Program Parameter: Android
+D [2017-10-07 16:04:07.200] Android Program FileVersionInfo: 0,,BlueStack Systems, Inc.,BlueStacks Frontend,2.0.2.5623,HD-Frontend.exe,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Frontend.exe,BlueStacks,2.0.2.5623,,
+D [2017-10-07 16:04:07.200] Android SecureME setting: 3
+D [2017-10-07 16:04:07.201] Android ADB Path: C:\Program Files (x86)\BlueStacks\HD-Adb.exe
+D [2017-10-07 16:04:07.201] Android VBoxManage Path: C:\Program Files (x86)\BlueStacks\BstkVMMgr.exe
+D [2017-10-07 16:04:07.202] Android ADB Device: 127.0.0.1:5555
+D [2017-10-07 16:04:07.202] Android ADB Shared Folder: /storage/sdcard/windows/BstSharedFolder/
+D [2017-10-07 16:04:07.203] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks\UserData\SharedFolder\
+D [2017-10-07 16:04:07.204] Android ADB Shared SubFolder: 
+D [2017-10-07 16:04:07.204] Android Mouse Device: BlueStacks Virtual Touch
+D [2017-10-07 16:04:07.205] Android ADB screencap command enabled: False
+D [2017-10-07 16:04:07.205] Android ADB input command enabled: True
+D [2017-10-07 16:04:07.206] Android ADB Mouse Click enabled: False
+D [2017-10-07 16:04:07.206] Android ADB Click Drag enabled: True
+D [2017-10-07 16:04:07.207] Bot Background Mode for screen capture: disabled
+D [2017-10-07 16:04:07.207] No Focus Tampering: False
+D [2017-10-07 16:04:07.208] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:07.209] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:07.247] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:07.248] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:07.249] Android Emulator not launched
+D [2017-10-07 16:04:07.250] InitAndroid(False): BlueStacks2 END, initialization successful = True, result = True
+D [2017-10-07 16:04:07.250] UpdateAndroidConfig("Android") END
+D [2017-10-07 16:04:07.251] Found installed BlueStacks2 2.0.2.5623
+D [2017-10-07 16:04:07.251] Retrieving CoC distributors
+D [2017-10-07 16:04:07.252] C:\ProgramData\BlueStacks\UserData\SharedFolder\ exists
+D [2017-10-07 16:04:08.343] Bot title updated to: My Bot v7.2.5 (Android)
+D [2017-10-07 16:04:08.344] UpdateSplashTitle: My Bot v7.2.5 (Android), Profile: MyVillage
+D [2017-10-07 16:04:08.350] My Bot is the only running instance
+D [2017-10-07 16:04:08.351] SplashStep 3 of 10: Loading Main GUI...(9.24 sec)
+D [2017-10-07 16:04:08.365] SplashStep 4 of 10: Loading GUI Bottom...(9.25 sec)
+D [2017-10-07 16:04:08.432] SplashStep 5 of 10: Loading Log tab...(9.31 sec)
+D [2017-10-07 16:04:08.971] SplashStep 6 of 10: Loading Village tab...(9.84 sec)
+D [2017-10-07 16:04:10.404] SplashStep 7 of 10: Loading Attack tab...(11.28 sec)
+D [2017-10-07 16:04:12.854] SplashStep 8 of 10: Loading Bot tab...(13.73 sec)
+D [2017-10-07 16:04:12.977] Retrieving CoC distributors
+D [2017-10-07 16:04:12.977] C:\ProgramData\BlueStacks\UserData\SharedFolder\ exists
+D [2017-10-07 16:04:14.679] 1 running bot instances detected
+D [2017-10-07 16:04:14.730] SplashStep 9 of 10: Loading About Us tab...(15.62 sec)
+D [2017-10-07 16:04:14.736] SplashStep 10 of 10: Initializing GUI...(15.62 sec)
+D [2017-10-07 16:04:14.845] Redraw MyBot ControlIds (forced): 0x0012188C, 0x0011180C
+D [2017-10-07 16:04:14.846] Control ID 0x0012188C handle: 0x0012188C parent: 0x000B141C $g_hFrmBot: 0x00101844 $g_hFrmBotEx: 0x000F181A Pos: 10, 133, 452, 303
+D [2017-10-07 16:04:14.846] Control ID 0x0012188C RedrawWindow Pos: 10, 133, 462, 436
+D [2017-10-07 16:04:14.849] Control ID 0x0011180C handle: 0x0011180C parent: 0x000B141C $g_hFrmBot: 0x00101844 $g_hFrmBotEx: 0x000F181A Pos: 10, 440, 452, 101
+D [2017-10-07 16:04:14.850] Control ID 0x0011180C RedrawWindow Pos: 10, 440, 462, 541
+D [2017-10-07 16:04:14.857] $g_hFrmBot=0x00101844
+D [2017-10-07 16:04:14.857] $g_hFrmBotEx=0x000F181A
+D [2017-10-07 16:04:14.858] $g_hFrmBotBottom=0x000B18E4
+D [2017-10-07 16:04:14.860] $g_hFrmBotEmbeddedShield=0
+D [2017-10-07 16:04:14.861] $g_hFrmBotEmbeddedShieldInput=17
+D [2017-10-07 16:04:14.862] $g_hFrmBotEmbeddedGraphics=0
+D [2017-10-07 16:04:14.867] Created attack log file: D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\Logs\AttackLog-2017-10.log
+D [2017-10-07 16:04:14.871] readConfig(), call number 2
+D [2017-10-07 16:04:14.886] Read Building Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\building.ini
+D [2017-10-07 16:04:14.904] Read Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\config.ini
+D [2017-10-07 16:04:15.027] applyConfig(), call number 1
+D [2017-10-07 16:04:15.028] Threading: Using 0 threads for parallelism
+D [2017-10-07 16:04:15.028] Threading: Using 0 threads shared across all bot instances
+D [2017-10-07 16:04:15.030] Disable MyBot Window Redraw: applyConfig
+D [2017-10-07 16:04:15.031] Bot title updated to: My Bot v7.2.5 (Android)
+D [2017-10-07 16:04:15.307] Redraw MyBot Window: applyConfig
+D [2017-10-07 16:04:15.324] $g_sProfilePath = D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles
+D [2017-10-07 16:04:15.325] $g_sProfileCurrentName = MyVillage
+D [2017-10-07 16:04:15.326] $g_sProfileLogsPath = D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\Logs\
+D [2017-10-07 16:04:15.421] MyBot.run.dll opened.
+D [2017-10-07 16:04:15.422] Threading: Using 0 threads shared across all bot instances
+D [2017-10-07 16:04:15.802] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:15.803] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:15.842] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:15.843] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:15.843] Android Emulator not launched
+D [2017-10-07 16:04:15.846] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:15.883] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:15.884] BlueStacks2 (Android) process not found
+D [2017-10-07 16:04:15.885] setAndroidPID: $pid=0
+D [2017-10-07 16:04:15.901] Android PID=0 initialized: , Idle
+D [2017-10-07 16:04:15.901] debugMBRFunctions: $g_iDebugSearchArea=0, $g_iDebugRedArea=0, $g_iDebugOcr=0
+D [2017-10-07 16:04:16.406] Restore bot window to -1, -1, caller: GUIControl_WM_NCACTIVATE
+L [2017-10-07 16:04:16.415] Found installed BlueStacks2 2.0.2.5623
+L [2017-10-07 16:04:16.443] Android Emulator Configuration: BlueStacks2 (instance Android)
+L [2017-10-07 16:04:18.145] WELCOME CHIEF, YOU HAVE THE LATEST VERSION OF THE BOT
+L [2017-10-07 16:04:18.171]  
+L [2017-10-07 16:04:18.173] Works with May 22 Game Update!
+L [2017-10-07 16:04:18.175] Plus new features and fixes
+L [2017-10-07 16:04:18.177] For more information, go to 
+L [2017-10-07 16:04:18.180] https://mybot.run
+L [2017-10-07 16:04:18.182]  Always free and open source.
+D [2017-10-07 16:04:18.183] Maximum of 2 bots running at same time configured
+D [2017-10-07 16:04:18.184] MyBot.run launch time 19282 ms.
+D [2017-10-07 16:04:40.396] Restore bot window to -1, -1, caller: GUIControl_WM_NCACTIVATE
+L [2017-10-07 16:04:50.393] Closing My Bot v7.2.5 (Android), please wait ...
+L [2017-10-07 16:04:50.643] Closing My Bot v7.2.5 (Android) now ...
+D [2017-10-07 16:04:50.643] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 16:04:50.643] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 16:04:50.689] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 16:04:50.689] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 16:04:50.689] Android Emulator not launched
+D [2017-10-07 16:04:50.689] Android Emulator not launched
+D [2017-10-07 16:04:50.689] Enable BlueStacks2 minimize/maximize Window Buttons
+D [2017-10-07 16:04:50.689] AndroidInvalidState: No Window Handle
+D [2017-10-07 16:04:50.705] saveConfig(), call number 1
+D [2017-10-07 16:04:50.721] Save Building Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\building.ini
+D [2017-10-07 16:04:50.752] Save Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\config.ini
+L [2017-10-07 16:04:50.752] BlueStacks2 unsupported render mode 2
+L [2017-10-07 16:04:50.752] BlueStacks2 (Android) unsupported Graphics Engine / Render Mode, using DirectX/WinAPI
+D [2017-10-07 16:04:50.752] Disable ADB screencap, using WinAPI DirectX for Background Mode
+D [2017-10-07 16:04:50.986] SaveConfig(), time = 0.27 sec
+D [2017-10-07 16:04:51.331] Bot Host Window Handle un-registered: 0x001117FA

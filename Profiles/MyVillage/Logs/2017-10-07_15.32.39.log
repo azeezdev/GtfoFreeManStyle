@@ -1,0 +1,80 @@
+D [2017-10-07 15:32:39.241] Created log file: D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\Logs\2017-10-07_15.32.39.log
+D [2017-10-07 15:32:39.241] Full Command Line: 1 /restart
+D [2017-10-07 15:32:39.241] Command Line Option detected: /restart
+L [2017-10-07 15:32:39.241] ====================== BOT LOG ======================
+D [2017-10-07 15:32:39.241] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+D [2017-10-07 15:32:39.241] @ScriptFullPath: D:\Desktop\MyBot\MyBot-MBR_v7.2.5\MyBot.run.au3
+D [2017-10-07 15:32:39.241] @WorkingDir: D:\Desktop\MyBot\MyBot-MBR_v7.2.5
+D [2017-10-07 15:32:39.256] @AutoItPID: 3532
+D [2017-10-07 15:32:39.256] @OSArch: X64
+D [2017-10-07 15:32:39.256] @OSVersion: WIN_7
+D [2017-10-07 15:32:39.256] @OSBuild: 7601
+D [2017-10-07 15:32:39.256] @OSServicePack: Service Pack 1
+D [2017-10-07 15:32:39.256] Primary Display: 1366 x 768 - 32bit
+D [2017-10-07 15:32:39.256] Bot title updated to: My Bot v7.2.5 
+D [2017-10-07 15:32:39.256] readConfig(), call number 1
+D [2017-10-07 15:32:39.272] Read Building Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\building.ini
+D [2017-10-07 15:32:39.287] Read Config D:\Desktop\MyBot\MyBot-MBR_v7.2.5\Profiles\MyVillage\config.ini
+L [2017-10-07 15:32:39.303] Android Emulator BlueStacks2
+D [2017-10-07 15:32:39.303] UpdateAndroidConfig("Android")
+D [2017-10-07 15:32:39.303] InitAndroid(False): BlueStacks2
+D [2017-10-07 15:32:39.303] BlueStacks2 Engine 'Plus'-Mode: False
+D [2017-10-07 15:32:39.303] BlueStacks2 OEM Features: 0
+D [2017-10-07 15:32:39.303] BlueStacks2 System Bar is available
+D [2017-10-07 15:32:39.303] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 15:32:39.303] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 15:32:39.397] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 15:32:39.397] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 15:32:39.397] Android Emulator not launched
+D [2017-10-07 15:32:39.397] Disabled WerFault for HD-Frontend.exe
+L [2017-10-07 15:32:39.397] BlueStacks2 unsupported render mode 2
+L [2017-10-07 15:32:39.412] BlueStacks2 (Android) unsupported Graphics Engine / Render Mode, using DirectX/WinAPI
+D [2017-10-07 15:32:39.412] Disable ADB screencap, using WinAPI DirectX for Background Mode
+D [2017-10-07 15:32:39.412] Android: BlueStacks2
+D [2017-10-07 15:32:39.412] Android Config: 1
+D [2017-10-07 15:32:39.412] Android Version: 2.0.2.5623
+D [2017-10-07 15:32:39.412] Android Instance: Android
+D [2017-10-07 15:32:39.412] Android Window Title: BlueStacks 
+D [2017-10-07 15:32:39.412] Android Program Path: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe
+D [2017-10-07 15:32:39.412] Android Program Parameter: Android
+D [2017-10-07 15:32:39.412] Android Program FileVersionInfo: 0,,BlueStack Systems, Inc.,BlueStacks Frontend,2.0.2.5623,HD-Frontend.exe,Copyright 2011 BlueStack Systems, Inc.  All Rights Reserved.,,HD-Frontend.exe,BlueStacks,2.0.2.5623,,
+D [2017-10-07 15:32:39.412] Android SecureME setting: 3
+D [2017-10-07 15:32:39.412] Android ADB Path: C:\Program Files (x86)\BlueStacks\HD-Adb.exe
+D [2017-10-07 15:32:39.412] Android VBoxManage Path: C:\Program Files (x86)\BlueStacks\BstkVMMgr.exe
+D [2017-10-07 15:32:39.412] Android ADB Device: 127.0.0.1:5555
+D [2017-10-07 15:32:39.412] Android ADB Shared Folder: /storage/sdcard/windows/BstSharedFolder/
+D [2017-10-07 15:32:39.412] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks\UserData\SharedFolder\
+D [2017-10-07 15:32:39.412] Android ADB Shared SubFolder: 
+D [2017-10-07 15:32:39.412] Android Mouse Device: BlueStacks Virtual Touch
+D [2017-10-07 15:32:39.412] Android ADB screencap command enabled: False
+D [2017-10-07 15:32:39.412] Android ADB input command enabled: True
+D [2017-10-07 15:32:39.412] Android ADB Mouse Click enabled: False
+D [2017-10-07 15:32:39.412] Android ADB Click Drag enabled: True
+D [2017-10-07 15:32:39.412] Bot Background Mode for screen capture: disabled
+D [2017-10-07 15:32:39.428] No Focus Tampering: False
+D [2017-10-07 15:32:39.428] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2017-10-07 15:32:39.428] WMI Query: Select Handle,ExecutablePath,CommandLine from Win32_Process where ExecutablePath like '%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%'
+D [2017-10-07 15:32:39.459] Process by CommandLine not found: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2017-10-07 15:32:39.459] BlueStacks2 (Android) Window not found in list
+D [2017-10-07 15:32:39.459] Android Emulator not launched
+D [2017-10-07 15:32:39.459] InitAndroid(False): BlueStacks2 END, initialization successful = True, result = True
+D [2017-10-07 15:32:39.459] UpdateAndroidConfig("Android") END
+D [2017-10-07 15:32:39.584] Aquired mutex ticket: Launching.1, 0x00000210
+D [2017-10-07 15:32:39.599] Watchdog already running
+D [2017-10-07 15:32:42.657] New Bot Host Window Handle registered: 0x002A0E18
+D [2017-10-07 15:32:47.046] SplashStep 1 of 10: Initializing Android...(7.44 sec)
+D [2017-10-07 15:32:47.046] SplashStep 2 of 10: Initializing Android...(7.44 sec)
+D [2017-10-07 15:32:47.046] Retrieving CoC distributors
+D [2017-10-07 15:32:47.046] C:\ProgramData\BlueStacks\UserData\SharedFolder\ exists
+D [2017-10-07 15:32:48.153] Bot title updated to: My Bot v7.2.5 (Android)
+D [2017-10-07 15:32:48.153] UpdateSplashTitle: My Bot v7.2.5 (Android), Profile: MyVillage
+D [2017-10-07 15:32:48.169] My Bot is the only running instance
+D [2017-10-07 15:32:48.169] SplashStep 3 of 10: Loading Main GUI...(8.57 sec)
+D [2017-10-07 15:32:48.185] SplashStep 4 of 10: Loading GUI Bottom...(8.58 sec)
+D [2017-10-07 15:32:48.248] SplashStep 5 of 10: Loading Log tab...(8.64 sec)
+D [2017-10-07 15:32:48.809] SplashStep 6 of 10: Loading Village tab...(9.19 sec)
+D [2017-10-07 15:32:50.026] SplashStep 7 of 10: Loading Attack tab...(10.42 sec)
+D [2017-10-07 15:32:52.226] SplashStep 8 of 10: Loading Bot tab...(12.62 sec)
+D [2017-10-07 15:32:52.351] Retrieving CoC distributors
+D [2017-10-07 15:32:52.351] C:\ProgramData\BlueStacks\UserData\SharedFolder\ exists
+D [2017-10-07 15:32:58.049] 1 running bot instances detected
